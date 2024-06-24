@@ -4,9 +4,9 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
+/* @import url('./reset.css');
 @import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./header.css'); */
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +22,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.field {
+  text-align: center;
+}
+.value {
+  font-size: 2rem;
+  display: block;
+}
+.label {
+  font-size: 1rem;
+}
+button:disabled {
+  background-color: #ccc;
 }
